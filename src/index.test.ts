@@ -1,4 +1,4 @@
-import { expectInAnyOrder } from "./expectInAnyOrder";
+import { expectInAnyOrder } from "./";
 
 test("Two same objects ", () => {
   expect(
