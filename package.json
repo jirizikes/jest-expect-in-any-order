@@ -1,0 +1,26 @@
+{
+  "name": "jest-expect-in-any-order",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/jirizikes/jest-expect-in-any-order.git",
+  "author": "jirizikes",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "dev": "node dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.7.11",
+    "lodash": "^4.17.21",
+    "sort-any": "^1.2.9",
+    "typescript": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1"
+  }
+}
