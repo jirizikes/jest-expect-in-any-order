@@ -1,7 +1,7 @@
 {
   "name": "jest-expect-in-any-order",
-  "version": "1.0.4",
-  "main": "src/index.ts",
+  "version": "1.0.5",
+  "main": "dist/index.js",
   "repository": "https://github.com/jirizikes/jest-expect-in-any-order.git",
   "author": "jirizikes",
   "license": "MIT",
