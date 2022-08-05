@@ -27,7 +27,7 @@ test("Two different objects ", () => {
         array: [1, 3, 2],
       }
     )
-  ).toThrow("Not same");
+  ).toThrow(new Error('Not same -> [{"name":"string","obj1":"hi","obj2":"hello"}]'));
 });
 
 test("Two different objects 2", () => {
@@ -62,7 +62,7 @@ test("Two different objects 2", () => {
         ],
       }
     )
-  ).toThrow("Not same");
+  ).toThrow(new Error('Not same -> [{"name":"array","obj1":[{"name":"CZ"},{"name":"EN"},{"name":"DE"}],"obj2":[{"name":"EN"},{"name":"CZZ"},{"name":"DE"}]}]'));
 });
 
 test("Two same objects, different order", () => {
